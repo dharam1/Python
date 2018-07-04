@@ -11,7 +11,7 @@ class calculator:
 
 print("1.Addition\n2.Subtraction\n3.Multiplication\n4.Division")
 operation = int(raw_input("Enter Your Choice\n"))
-n1 = int(raw_input("Enter 1st number"))
+n1 = inr(raw_input("Enter 1st number"))
 n2 = int(raw_input("Enter 2nd number"))
 cal = calculator()
 if(operation == 1):
